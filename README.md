@@ -1,6 +1,6 @@
-# shailendrasekhar.github.io
+# aryanreddye.github.io
 
-My portfolio website built using HTML, CSS, and JavaScript. You can check it out [here](https://shailendrasekhar.github.io).
+My portfolio website built using HTML, CSS, and JavaScript. You can check it out [here](https://aryanreddye.github.io).
 
 
 
@@ -9,5 +9,5 @@ My portfolio website built using HTML, CSS, and JavaScript. You can check it out
 
 👤 **shailendrasekhar**
 
-* LinkedIn: [@shailendrasekhar](https://www.linkedin.com/in/shailendrasekhar)
-* GitHub: [@shailendrasekhar](https://github.com/shailendrasekhar)
+//* LinkedIn: [@shailendrasekhar](https://www.linkedin.com/in/shailendrasekhar)
+* GitHub: [@aryanreddye](https://github.com/aryanreddye)
