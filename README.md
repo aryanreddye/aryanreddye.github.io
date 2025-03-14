@@ -7,7 +7,6 @@ My portfolio website built using HTML, CSS, and JavaScript. You can check it out
 
 ## Author
 
-👤 **shailendrasekhar**
+👤 **aryanreddye**
 
-//* LinkedIn: [@shailendrasekhar](https://www.linkedin.com/in/shailendrasekhar)
 * GitHub: [@aryanreddye](https://github.com/aryanreddye)
