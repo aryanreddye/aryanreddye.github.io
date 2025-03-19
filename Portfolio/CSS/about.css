@@ -1,0 +1,109 @@
+/* Import font (if not imported globally) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+  
+  /* Header same as homepage */
+  header {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+    min-height: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+  }
+  
+  /* Background Section */
+  .about-section {
+    background-color: black;
+   /* background-image: url('htmlback.avif'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Main Container */
+  .about-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px 40px;  /* ↓ Reduced top & bottom, sides unchanged */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    max-width: 800px;
+    width: 90%;
+    min-height: 400px;  /* Still tall container */
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+    margin: auto;
+  }
+  
+  
+  
+  
+  /* Profile Picture */
+  .profile-pic img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border: 3px solid #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+    border-radius: 10px; /* Or 0 for sharp edges */
+  }
+  
+  
+  
+  
+  /* Text Section */
+  .about-text h2 {
+    margin-top: 0;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .profile-pic {
+        flex-shrink: 0; 
+        width: 320px;
+        height: 400px; /* Prevents image from shrinking */
+      }
+      
+
+  }
+  
