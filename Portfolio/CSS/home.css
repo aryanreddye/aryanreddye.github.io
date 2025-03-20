@@ -1,4 +1,19 @@
- * {
+@media (max-width: 768px){
+    body{
+        font-size: 14px;
+    }
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
