@@ -1,3 +1,22 @@
+@media (max-width: 768px){
+    body{
+        font-size: 14px;
+    }
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+        
+
+
+
+
+
 /* Import font (if not imported globally) */
 body {
     margin: 0;
