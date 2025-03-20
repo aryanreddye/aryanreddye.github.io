@@ -1,3 +1,3 @@
 ARYAN REDDY EGUMAMIDI 
 
-Check out my portfolio website using HTML, CSS and Javascript.
+Check out my portfolio here: [My Portfolio](https://aryanreddye.github.io)
