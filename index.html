@@ -4,19 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
-  <link rel="stylesheet" href="Portfolio/CSS/home.css" />
+  <link rel="stylesheet" href="home.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Portfolio/HTML/about.html">About</a></li>
-        <li><a href="Portfolio/HTML/edu.html">Education</a></li>
-        <li><a href="Portfolio/HTML/project.html">Projects</a></li>
-        <li><a href="Portfolio/HTML/skills.html">Skills</a></li>
-      </ul>
-    </nav>
+   <header class="navbar">
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li> 
+    </ul>
+  </nav>
+</header>
+
   </header>
 
   <main>
@@ -42,6 +44,81 @@
       <div class="base"></div>
     </div>
   </main>
+  <section id="about" class="about-section">
+  <div class="about-container">
+    <div class="profile-pic">
+      <img src="Portfolio/Images/pfp.JPG" alt="My Profile Picture" />
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm a web developer passionate about creating engaging and responsive websites. I enjoy turning ideas into reality through code and design. Let's build something amazing together!
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="education" class="education-section">
+  <div class="edu-box">
+    <a href="https://www.suprabhat.ac.in/" target="_blank">
+      <img src="Portfolio/Images/smhs.jpg" alt="Suprabhat Logo" />
+    </a>
+    <div class="edu-text">
+      <h2>Suprabath Model High School</h2>
+      <p>
+        Laid the foundation of my academic journey during Class 1 to 4, focusing on essential skills and early learning.
+        Developed curiosity, discipline, and a strong interest in academics from a young age.
+        These formative years instilled the values that continue to guide me.
+      </p>
+    </div>
+  </div>
+
+  <div class="edu-box">
+    <a href="https://www.sherwoodpublicschool.com/" target="_blank">
+      <img src="Portfolio/Images/sps.jpg" alt="Sherwood Logo" />
+    </a>
+    <div class="edu-text">
+      <h2>SHERWOOD Public School</h2>
+      <p>
+        Enhanced my knowledge in sciences, mathematics, and technology through focused learning from Class 5 to 12.
+        Actively participated in both academic and co-curricular activities, fostering all-round growth.
+        Prepared me with the mindset and skills essential for higher education and future goals.
+      </p>
+    </div>
+  </div>
+
+  <div class="edu-box">
+    <a href="https://hitam.org/" target="_blank">
+      <img src="Portfolio/Images/hitam.jpg" alt="HITAM Logo" />
+    </a>
+    <div class="edu-text">
+      <h2>Hyderabad Institute Of Technology and Management</h2>
+      <p>
+        Pursued a degree in Computer Science with a specialization in Internet of Things technologies.
+        Engaged in practical projects, coding, and problem-solving throughout my engineering journey.
+        This phase refined my technical abilities and deepened my passion for innovation.
+      </p>
+    </div>
+  </div>
+</section>
+
+ <section id="skills" class="skills-section">
+  <div class="skills-container">
+    <div class="skill-box">
+      <img src="Portfolio/Images/html.png" alt="HTML Icon" class="skill-icon" />
+      <p class="skill-text">HTML</p>
+    </div>
+    <div class="skill-box">
+      <img src="Portfolio/Images/css.png" alt="CSS Icon" class="skill-icon" />
+      <p class="skill-text">CSS</p>
+    </div>
+    <div class="skill-box">
+      <img src="Portfolio/Images/js.png" alt="JavaScript Icon" class="skill-icon" />
+      <p class="skill-text">JavaScript</p>
+    </div>
+  </div>
+</section>
+
   <script src="Portfolio/JavaScript/script.js"></script>
 </body>
 </html>
