@@ -22,12 +22,40 @@ function typeWriter() {
     paraIndex++;
 
     if (paraIndex >= paragraphs.length) {
-      paraIndex = 0;  // Reset to loop again
+      paraIndex = 0;  
       setTimeout(typeWriter, 3000);
     } else {
-      setTimeout(typeWriter, 3000); // Pause before next para
+      setTimeout(typeWriter, 3000); 
     }
   }
 }
 
 typeWriter();
+
+const toggleBtn = document.getElementById('theme-toggle');
+const body = document.body;
+
+toggleBtn.addEventListener('click', () => {
+  if (body.classList.contains('light-mode')) {
+    body.classList.remove('light-mode');
+    body.classList.add('dark-mode');
+    toggleBtn.textContent = '🌙';
+    localStorage.setItem('theme', 'dark');
+  } else {
+    body.classList.remove('dark-mode');
+    body.classList.add('light-mode');
+    toggleBtn.textContent = '☀️';
+    localStorage.setItem('theme', 'light');
+  }
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'light') {
+    body.classList.add('light-mode');
+    toggleBtn.textContent = '☀️';
+  } else {
+    body.classList.add('dark-mode');
+    toggleBtn.textContent = '🌙';
+  }
+});
